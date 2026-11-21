@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="application-version" content="0.1.3">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="stylesheet" href="https://deepseek-ai.github.io/chat-demo/static/css/main.27198ffe.css">
+    <title>API 使用 demo</title>
+    <script defer src="https://deepseek-ai.github.io/chat-demo/static/js/main.4fc5bb07.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./service-worker.js');
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "id": "./",
+  "name": "API 使用 demo",
+  "short_name": "API demo",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
